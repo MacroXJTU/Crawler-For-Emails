@@ -6,7 +6,7 @@ import MySQLdb
 conn =   MySQLdb.Connection('127.0.0.1', 'root', '123456', 'mail')
 cursor = conn.cursor()
 # 執行 SQL 語句
-cursor.execute("SELECT * FROM mail")
+cursor.execute("SELECT * FROM url")
 result = cursor.fetchall()
 output = open('mail.txt', 'w+')
 
