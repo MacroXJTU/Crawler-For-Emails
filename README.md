@@ -1,4 +1,4 @@
 Crawler-For-Emails
 ==================
 
-This Project is based on VS 2012. Use C++ and MYSQL language to build a program act like a crawler.
+基于VS2012，使用VC++及MYSQL实现的网络爬虫，抓取网页中的电子邮件地址，已成功抓取到十万多份地址
